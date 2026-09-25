@@ -5,7 +5,7 @@ Interactive visualisation of the genus-2 curve arising in the investigation of *
 ### [Open the interactive visualisation →](https://kddavis91.github.io/erdos677-curve-visualisation/)
 
 <p align="center">
-  <img src="assets/complex-sheets.jpg" alt="Complex double-cover visualisation" width="100%">
+  <img src="assets/complex-sheets.png" alt="Complex double-cover visualisation" width="100%">
 </p>
 
 ## What it shows
@@ -21,7 +21,7 @@ The branch-point view also allows a loop to be followed continuously around a br
 ## Real locus
 
 <p align="center">
-  <img src="assets/real-curve.jpg" alt="Real locus of the Erdős 677 genus-2 curve" width="100%">
+  <img src="assets/real-curve.png" alt="Real locus of the Erdős 677 genus-2 curve" width="100%">
 </p>
 
 Known rational points are plotted on the two real branches. Their presence is established; the visualisation does **not** claim that the displayed set is complete.
@@ -29,7 +29,7 @@ Known rational points are plotted on the two real branches. Their presence is es
 ## Lifting back to the interval problem
 
 <p align="center">
-  <img src="assets/lift-to-intervals.jpg" alt="Lifting a rational point to two integer intervals" width="100%">
+  <img src="assets/lift-to-intervals.png" alt="Lifting a rational point to two integer intervals" width="100%">
 </p>
 
 For a selected rational point, the final view reconstructs the corresponding interval starts and compares the two length-5 blocks directly.
