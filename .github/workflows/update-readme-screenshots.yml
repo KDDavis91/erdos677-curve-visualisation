@@ -59,14 +59,14 @@ jobs:
               fullPage: false
             });
 
-            await page.selectOption('#ec-view', 'real');
+            await page.frameLocator('#codex-visualization').locator('#ec-view').selectOption('real');
             await page.waitForTimeout(700);
             await page.screenshot({
               path: 'assets/real-curve.png',
               fullPage: false
             });
 
-            await page.selectOption('#ec-view', 'lift');
+            await page.frameLocator('#codex-visualization').locator('#ec-view').selectOption('lift');
             await page.waitForTimeout(700);
             await page.screenshot({
               path: 'assets/lift-to-intervals.png',
