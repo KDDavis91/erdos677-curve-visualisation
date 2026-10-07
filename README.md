@@ -49,13 +49,13 @@ whose discriminant is $h(r)$. This supplies the bridge from the double cover to 
 
 Rotate the two projected sheets, select a branch point and use **One turn** or the orbit slider to follow its lifted path. **Close-up** reveals the local behaviour near the selected branch point.
 
-The six branch points occur in three conjugate pairs. The displayed height is $\operatorname{asinh}(\operatorname{Re}w/12)$; the image is a projection of the complex curve.
+The six branch points occur in three conjugate pairs. The displayed height is `asinh(Re(w) / 12)`; the image is a projection of the complex curve.
 
 ## Real curve
 
 ![Real curve with supplied rational points and the selected coordinate](assets/real-curve-cropped.png)
 
-Inspect both real branches, choose a rational coordinate, switch the sign of $w$, or select a marker directly. The vertical scale uses $\operatorname{asinh}(w/12)$ to keep large values visible.
+Inspect both real branches, choose a rational coordinate, switch the sign of $w$, or select a marker directly. The vertical scale uses `asinh(w / 12)` to keep large values visible.
 
 The markers are supplied rational points. The visualisation does not establish that this set is complete.
 
