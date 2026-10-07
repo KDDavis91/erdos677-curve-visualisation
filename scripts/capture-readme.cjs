@@ -13,7 +13,7 @@ const fs=require('fs');
   await frame.locator('#ec-view').waitFor();
   const inner=page.frames().find(f=>f!==page.mainFrame());
   const output=process.env.CURVE_IMAGES||'assets';fs.mkdirSync(output,{recursive:true});
-  const shots=[['complex','complex-sheets'],['real','real-curve'],['lift','lift-to-intervals'],['glue','branch-cuts-and-handles'],['infinity','points-at-infinity'],['loops','custom-loops'],['cover','full-lift'],['region','admissible-interval-region']];
+  const shots=[['complex','complex-sheets-cropped'],['real','real-curve-cropped'],['lift','lift-to-intervals-cropped'],['glue','branch-cuts-and-handles'],['infinity','points-at-infinity'],['loops','custom-loops'],['cover','full-lift'],['region','admissible-interval-region']];
   for(const [view,name]of shots){
     await frame.locator('#ec-view').selectOption(view);
     if(view==='complex'){await frame.locator('#ec-phase').fill('360');}

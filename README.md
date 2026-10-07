@@ -4,7 +4,7 @@ Explore the genus-two curve behind the **length-five, product-ratio $4/3$ case**
 
 **[Open the interactive visualisation →](https://kddavis91.github.io/erdos677-curve-visualisation/)**
 
-![Complex double cover after one turn around a branch point](assets/complex-sheets.png)
+![Complex double cover after one turn around a branch point](assets/complex-sheets-cropped.png)
 
 *One turn returns to the same base coordinate on the opposite sheet. A second turn closes the lifted path.*
 
@@ -53,7 +53,7 @@ The six branch points occur in three conjugate pairs. The displayed height is $\
 
 ## Real curve
 
-![Real curve with supplied rational points and the selected coordinate](assets/real-curve.png)
+![Real curve with supplied rational points and the selected coordinate](assets/real-curve-cropped.png)
 
 Inspect both real branches, choose a rational coordinate, switch the sign of $w$, or select a marker directly. The vertical scale uses $\operatorname{asinh}(w/12)$ to keep large values visible.
 
@@ -61,7 +61,7 @@ The markers are supplied rational points. The visualisation does not establish t
 
 ## Lift to intervals
 
-![The exact lift to intervals starting at 15 and 16, with four shared integers](assets/lift-to-intervals.png)
+![The exact lift to intervals starting at 15 and 16, with four shared integers](assets/lift-to-intervals-cropped.png)
 
 For a selected $(r,w)$, the app evaluates
 
